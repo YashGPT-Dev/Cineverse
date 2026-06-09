@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineVerse | Movie Discovery Platform</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">🎬 CineVerse</div>
+
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Series</a></li>
+        <li><a href="#">Trending</a></li>
+      </ul>
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search movies..." />
+      </div>
+    </nav>
+
+    <section class="banner">
+      <div class="banner-content">
+        <span class="featured">Featured Movie</span>
+
+        <h1>Interstellar</h1>
+
+        <p>
+          A team of explorers travel through a wormhole in space in an attempt
+          to ensure humanity's survival.
+        </p>
+
+        <div class="banner-buttons">
+          <button class="watch-btn">▶ Watch Now</button>
+          <button class="list-btn">+ My List</button>
+        </div>
+      </div>
+    </section>
+    <section class="hero">
+      <div class="container">
+        <h1>Exclusive Privileges</h1>
+        <p>
+          A modern 3D coverflow carousel built using pure HTML, CSS and
+          JavaScript.
+        </p>
+
+        <div class="carousel-wrapper">
+          <button class="nav-btn prev">&#10094;</button>
+
+          <div class="carousel">
+            <div class="card active">
+              <span class="tag">Featured</span>
+
+              <h2>Apple Offer</h2>
+
+              <p>
+                Get exclusive discounts on selected Apple products and
+                accessories.
+              </p>
+
+              <div class="amount">Up to ₹7000 Off</div>
+            </div>
+
+            <div class="card">
+              <span class="tag">Travel</span>
+
+              <h2>Activation Voucher</h2>
+
+              <p>Enjoy instant savings on your next trip and hotel bookings.</p>
+
+              <div class="amount">₹1200 Off</div>
+            </div>
+
+            <div class="card">
+              <span class="tag">Entertainment</span>
+
+              <h2>Movie Benefits</h2>
+
+              <p>Unlock exciting discounts on movies and entertainment.</p>
+
+              <div class="amount">₹500 Off</div>
+            </div>
+
+            <div class="card">
+              <span class="tag">Shopping</span>
+
+              <h2>Digital Store</h2>
+
+              <p>Save more on gadgets, electronics and premium accessories.</p>
+
+              <div class="amount">₹1500 Off</div>
+            </div>
+          </div>
+
+          <button class="nav-btn next">&#10095;</button>
+        </div>
+
+        <div class="dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </section>
+    <section class="genres">
+      <h2>Browse by Genre</h2>
+
+      <div class="genre-buttons">
+        <button class="genre-btn active">All</button>
+        <button class="genre-btn">Action</button>
+        <button class="genre-btn">Sci-Fi</button>
+        <button class="genre-btn">Drama</button>
+        <button class="genre-btn">Thriller</button>
+        <button class="genre-btn">Comedy</button>
+      </div>
+    </section>
+
+    <section class="trending">
+      <h2>🔥 Trending Now</h2>
+
+      <div class="movie-grid">
+        <div class="movie-card" data-genre="Sci-Fi">
+          <img src="assets/interstellar.jpg" alt="Interstellar" />
+          <h3>Interstellar</h3>
+          <div class="movie-actions">
+            <button class="watchlist-btn">❤️ Add to Watchlist</button>
+          </div>
+        </div>
+
+        <div class="movie-card" data-genre="Action">
+          <img src="assets/john_wick.jpg" alt="John Wick" />
+          <h3>John Wick</h3>
+          <div class="movie-actions">
+            <button class="watchlist-btn">❤️ Add to Watchlist</button>
+          </div>
+        </div>
+
+        <div class="movie-card" data-genre="Drama">
+          <img src="assets/Oppenheimer.jpg" alt="Oppenheimer" />
+          <h3>Oppenheimer</h3>
+          <div class="movie-actions">
+            <button class="watchlist-btn">❤️ Add to Watchlist</button>
+          </div>
+        </div>
+
+        <div class="movie-card" data-genre="Thriller">
+          <img src="assets/Joker.jpg" alt="Joker" />
+          <h3>Joker</h3>
+          <div class="movie-actions">
+            <button class="watchlist-btn">❤️ Add to Watchlist</button>
+          </div>
+        </div>
+
+        <div class="movie-card" data-genre="Comedy">
+          <img src="assets/free_guy.jpg" alt="Free Guy" />
+          <h3>Free Guy</h3>
+          <div class="movie-actions">
+            <button class="watchlist-btn">❤️ Add to Watchlist</button>
+          </div>
+        </div>
+
+        <div class="movie-card" data-genre="Sci-Fi">
+          <img src="assets/Dune.jpg" alt="Dune" />
+          <h3>Dune</h3>
+          <div class="movie-actions">
+            <button class="watchlist-btn">❤️ Add to Watchlist</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="top10">
+      <h2>🌟 Editor's Picks</h2>
+
+      <div class="featured-movies">
+        <div class="featured-card">
+          <img src="assets/interstellar.jpg" alt="Interstellar" />
+
+          <div class="featured-info">
+            <h3>Interstellar</h3>
+
+            <p>
+              A masterpiece of science fiction exploring space, time and
+              humanity's survival.
+            </p>
+
+            <span>⭐ 8.7 IMDb</span>
+          </div>
+        </div>
+
+        <div class="featured-card">
+          <img src="assets/Oppenheimer.jpg" alt="Oppenheimer" />
+
+          <div class="featured-info">
+            <h3>Oppenheimer</h3>
+
+            <p>
+              Christopher Nolan's epic story of the father of the atomic bomb.
+            </p>
+
+            <span>⭐ 8.3 IMDb</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="watchlist-section">
+      <h2>
+        ❤️ My Watchlist
+        <button id="clearWatchlist">Clear</button>
+      </h2>
+      <div id="watchlistContainer"></div>
+    </section>
+
+    <div class="modal" id="movieModal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+
+        <img id="modalImage" src="" alt="Movie Poster" />
+
+        <div class="modal-info">
+          <h2 id="modalTitle"></h2>
+          <p id="modalGenre"></p>
+          <p id="modalYear"></p>
+          <p id="modalRating"></p>
+
+          <button class="watch-btn">▶ Watch Trailer</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
